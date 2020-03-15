@@ -11,7 +11,7 @@ print('Bob said "I\'m Ok".')
 print("Bob said \"I'm Ok\".")
 #print(r'Bob said "I'm Ok".')   not ok
 
-# r字符串中的特殊字符(不包含单/双引号)不做转义
+# r字符串不做转义
 str1 = r'\(~_~)/\(~_~)/'
 print(str1)
 
