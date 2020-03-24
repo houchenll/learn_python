@@ -5,6 +5,8 @@
 ## 安装
 从官网下载安装包安装  
 
+python 3.x安装后的源代码位于：`/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8`  
+
 
 ## 配置Sublime
 启动Sublime Text，并选择菜单ToolsBuild SystemNew Build System，这将打开一 个新的配置文件。删除其中的所有内容，再输入如下内容:  

@@ -33,6 +33,12 @@ import module3
 # module3中上面if条件中的代码不会执行，因为不是直接执行，而是Import的。但是普通的print语句仍会执行
 
 
+# 可以使用变量保存函数，这样就可以使用变量来访问函数，不用每次都通过模块引用函数
+import math
+foo = math.sqrt
+print(foo(4))
+
+
 """
 Python常用模块
     - 运行时服务相关模块: copy / pickle / sys / ...

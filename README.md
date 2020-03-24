@@ -20,6 +20,24 @@
 3. 注释的行长不超过72个字符；  
 4. 使用空行将代码不同部分分开；  
 
+
+## Python Reference
+[python examples](https://www.w3schools.com/python/python_examples.asp)  
+[python build-in functions](https://www.w3schools.com/python/python_ref_functions.asp)  
+[python string methods](https://www.w3schools.com/python/python_ref_string.asp)  
+[python list/array methods](https://www.w3schools.com/python/python_ref_list.asp)  
+[python dictionary methods](https://www.w3schools.com/python/python_ref_dictionary.asp)  
+[python tuple methods](https://www.w3schools.com/python/python_ref_tuple.asp)  
+[python set methods](https://www.w3schools.com/python/python_ref_set.asp)  
+[python file methods](https://www.w3schools.com/python/python_ref_file.asp)  
+[python key words](https://www.w3schools.com/python/python_ref_keywords.asp)  
+[python exceptions](https://www.w3schools.com/python/python_ref_exceptions.asp)  
+[python random modules](https://www.w3schools.com/python/module_random.asp)  
+[python request modules](https://www.w3schools.com/python/module_requests.asp)  
+[python math modules](https://www.w3schools.com/python/module_math.asp)  
+[python cmath modules](https://www.w3schools.com/python/module_cmath.asp)  
+
+
 ## The Zen of Python
 >Beautiful is better than ugly.  
 Explicit is better than implicit.  
