@@ -2,10 +2,10 @@
 ## 学习资源
 
 ### 文档
-[Welcome to Python][1]  
-[3.7.3 Documentation][2]  
+[Python 官网首页 Welcome to Python][1]  
+[3.x Documentation][2]  
 [Python教程 - 廖雪峰的官方网站][3]  
-[Python Tutorial: Learn Python For Free | Codecademy][4]  
+[Python Tutorial: Learn Python 3 | Codecademy][4]  
 [Python Tutorial - W3Schools][5]  
 [Learn Python - Free Interactive Python Tutorial][6]  
 
@@ -21,7 +21,7 @@
 4. 使用空行将代码不同部分分开；  
 
 
-## Python Reference
+## Python Reference (w3schools)
 [python examples](https://www.w3schools.com/python/python_examples.asp)  
 [python build-in functions](https://www.w3schools.com/python/python_ref_functions.asp)  
 [python string methods](https://www.w3schools.com/python/python_ref_string.asp)  
@@ -62,7 +62,7 @@ Namespaces are one honking great idea -- let's do more of those!
 [1]: https://www.python.org/
 [2]: https://docs.python.org/3/
 [3]: https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000
-[4]: https://www.codecademy.com/learn/learn-python
+[4]: https://www.codecademy.com/learn/learn-python-3	
 [5]: https://www.w3schools.com/python/
 [6]: https://www.learnpython.org/
 [7]: https://www.youtube.com/watch?v=rfscVS0vtbw
