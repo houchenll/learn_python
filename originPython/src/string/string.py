@@ -30,6 +30,9 @@ It is free and easy to learn.
 Let's start learn Python in imooc!'''
 print(str1)
 
+# 特殊字符
+str1 = "one\ntwo"  # 换行
+
 # 中文
 str1 = '云横秦岭家何在，雪拥蓝关马不前。'    # OK
 str2 = u'云横秦岭家何在，雪拥蓝关马不前。'    # OK

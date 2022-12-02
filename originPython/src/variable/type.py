@@ -1,4 +1,6 @@
-# python数据类型：整型、浮点型、布尔类型、
+# python支持的数据类型有：整型 int、布尔类型 bool、字符串 str、浮点型 float
+# 没有 long，再大的整数都是 int
+
 # 转换
 # 获取类型
 
@@ -37,6 +39,7 @@ print(b)    # 520.0
 
 # type()，获取变量的类型
 print(type(520))    # <class 'int'>
+print(type(5201234567222882828282882828228289283742983479287423892423922222222222289))    # <class 'int'>
 print(type(5.2))    # <class 'float'>
 print(type(5e15))   # <class 'float'>
 print(type(True))   # <class 'bool'>
