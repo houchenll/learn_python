@@ -15,3 +15,8 @@ numbers = 22, 44
 print(numbers)    # (22, 44)
 numbers = 22,
 print(numbers)    # (22,)
+
+age = 18
+name = 'zara'
+print("%s's age is %d" % (name, age))  # zara's age is 18
+print(name, age)  # zara 18 逗号分隔的变量之间会自动加上空格

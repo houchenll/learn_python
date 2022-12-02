@@ -59,3 +59,32 @@ def myfunc():
 myfunc()
 
 print("Python is " + x)
+
+# 大小写敏感
+
+teacher = "小王"
+print(teacher)
+
+teacher = '老王'
+print(teacher)
+
+msg = "Let's go"
+print(msg)
+msg = 'Let\'s go'
+print(msg)
+
+# 使用r后，遇到\不转义
+msg = r'C:\now'
+print(msg)
+
+# 跨越多行的字符串
+msg = '''床前明月光，
+疑是地上霜。
+举头望明月，
+低头思故乡。'''
+print(msg)
+
+first = 3
+second = 8
+third = first + second
+print(third)
