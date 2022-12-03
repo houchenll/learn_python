@@ -12,6 +12,10 @@
 ### video
 [学习Python - 初学者全程][7]  
 [Python Tutorial for Beginners | Full Python Programming Course [2019]][8]  
+[Python for Beginners – Full Course [Programming Tutorial]][11]  
+[Python Tutorial for Beginners][12]
+[Python Project Tutorial - Your First Python Project][13]  
+[Intermediate Python Programming Course][10]  
 [零基础入门学习python - 小甲鱼][9]  
 
 ## 编码规范
@@ -68,3 +72,7 @@ Namespaces are one honking great idea -- let's do more of those!
 [7]: https://www.youtube.com/watch?v=rfscVS0vtbw
 [8]: https://www.youtube.com/watch?v=_uQrJ0TkZlc
 [9]: https://www.youtube.com/watch?v=jCI4oDkDg00&list=PLLUsl4SYy5wFtX-VCW5gft6SgLbVOH2Y5
+[10]: https://www.youtube.com/watch?v=HGOBQPFzWKo
+[11]: https://www.youtube.com/watch?v=eWRfhZUzrAc
+[12]: https://www.youtube.com/watch?v=8124kv-632k&t=3792s
+[13]: https://www.youtube.com/watch?v=_ZqAVck-WeM
