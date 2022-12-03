@@ -1,9 +1,10 @@
-#-*- coding:utf-8 -*-
+# -*- coding:utf-8 -*-
 
-x = input("x: ")    # 3
-y = input("y: ")    # 2
+# python3 中取到的值是字符串类型，包括数字
+x = input("x: ")  # 3
+y = input("y: ")  # 2
 z = x + y
-print(z)    # 32(python3) / 5(python2)
+print(z)  # 32(python3) / 5(python2)
 x = int(x)
 y = int(y)
 z = x + y

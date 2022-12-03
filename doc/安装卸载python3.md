@@ -1,8 +1,11 @@
 
 # 安装卸载python3
+方法有：
+1. 使用官网下载
+2. 使用 brew 安装
+3. 使用 conda 安装
 
-
-## 安装
+## 1、官网安装
 从官网下载安装包安装  
 
 python 3.x安装后的源代码位于：`/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8`  
