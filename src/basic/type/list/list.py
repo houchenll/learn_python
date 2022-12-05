@@ -2,10 +2,11 @@
 
 # create list: use []
 bicycles = []
+print('type', type(bicycles))  # <class 'list'>
 # print(bicycles)    # []
 # list can contains all kind of data, such as string, int, float, bool, list, tuple, dict ...
 # different kinds of data can be put into one list
-bicycles = ['trek', 3, 5.6, True, ['one', 'two'], ('three', 4), {'name':'john', 'age': 28}]
+bicycles = ['trek', 3, 5.6, True, ['one', 'two'], ('three', 4), {'name': 'john', 'age': 28}]
 # print(bicycles)    # ['trek', 3, 5.6, True, ['one', 'two'], ('three', 4), {'name': 'john', 'age': 28}]
 
 # get item from list by index, index can be > 0 from left to right, and < 0 from right to left
@@ -21,7 +22,11 @@ bicycles = ['trek', 'cannondale', 'redline']
 copy = bicycles[:]    # 切片中:不指定左右边界，可用来复制列表
 # print(copy)    # ['trek', 'cannondale', 'redline']
 
-# append (tail)
+# 复制方法2 copy
+bikes = bicycles.copy()
+print('bikes', bikes)  # ['trek', 'cannondale', 'redline']
+
+# append (tail) 追加单个元素
 bicycles.append('ducati')
 # print(bicycles)    # ['trek', 'cannondale', 'redline', 'ducati'], 在原列表末尾添加一个元素
 
@@ -49,9 +54,19 @@ bike = bicycles.pop(0)
 
 # remove (value), remove first match value, can't return removed item
 bike = bicycles.remove('redline')
-# print(bicycles)    # ['phoenix', 'ducati', 'one', 'two']
+print('remove', bicycles)    # ['phoenix', 'ducati', 'one', 'two']
 # print(bike)    # None
 
+# 判断列表中是否存在某个元素
+# print('index contain', bicycles.index('dragon'))  # ValueError: 'dragon' is not in list
+
+# 获取列表中重复元素的数据，可用来判断数据是否在列表中存在
+print('count', bicycles.count('one'))  # 1
+print('count', bicycles.count('dragon'))  # 0
+
+# clear, 清空列表
+bicycles.clear()
+print('clear', bicycles)  # []
 
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 # print(cars)    # ['bmw', 'audi', 'toyota', 'subaru']

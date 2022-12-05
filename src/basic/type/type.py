@@ -1,5 +1,6 @@
 # python支持的数据类型有：整型 int、布尔类型 bool、字符串 str、浮点型 float
 # 没有 long，再大的整数都是 int
+# list, <class 'list'>
 
 # 转换
 # 获取类型
