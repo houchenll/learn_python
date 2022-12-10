@@ -34,3 +34,8 @@ print(numbers)    # (22,)
 # 6. %d 接收 tuple 时，不会报错，但不会输出打印结果
 params = ('str', 100, 3.14, False, ['spring', 'summer'], ('good', 'bad'), {'name': 'lucy', 'age': 23})
 print('format 1 %s, 2 %s, 3 %s, 4 %s, 5 %s, 6 %s, 7 %s' % params)
+
+# 使用 end 指定最后一个字符，默认为换行
+favourite = 'FishC'
+for i in favourite:
+    print(i, end=' ')

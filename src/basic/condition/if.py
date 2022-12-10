@@ -44,6 +44,16 @@ elif not is_male and is_tall:
 else:
     print('you are not male nether is tall')
 
+age = 10
+if age >= 18:
+    print('adult')
+elif age > 10:
+    print('teenager')
+elif age > 3:
+    print('kid')
+else:
+    print('baby')
+
 # 4. 三元操作符
 # python的三元操作符，不同于类C语言
 x, y = 4, 5
