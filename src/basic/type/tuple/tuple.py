@@ -1,5 +1,3 @@
-# -*- coding:utf-8 -*-
-
 # 元组(tuple)是不可变的列表，使用()创建
 # 1. 有序集合
 # 2. 只能查询，不能增、删、改
@@ -26,6 +24,8 @@ print(t[0])   # Adam
 rank = ('A', 'B', 3)
 a, b, c = rank
 print('%s, %s, %s' % (a, b, c))    # A, B, 3
+# m, n = rank  # error ValueError: too many values to unpack (expected 2)
+# print('m ,n: %s %s' % (m, n))
 
 # tuple定义后，就不能改变。没有append方法，也没有insert方法和pop方法。不能添加，不能删除，不能修改
 
