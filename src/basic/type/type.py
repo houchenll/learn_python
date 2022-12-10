@@ -24,24 +24,6 @@ num = True + True
 print(num)    # 2
 print(True == 1)    # True
 
-# int()，将字符串或浮点数转换为整数
-a = '520'
-b = int(a)
-print(b)
-a = 5.99
-b = int(a)    # 砍掉小数部分
-print(b)
-
-# float()，将字符串或整数转换为小数
-a = 520
-b = float(a)
-print(b)    # 520.0
-a = '520'
-b = float(a)
-print(b)    # 520.0
-
-# str()，将整数或浮点数转换为字符串
-
 # type()，获取变量的类型
 print(type(520))    # <class 'int'>
 print(type(5201234567222882828282882828228289283742983479287423892423922222222222289))    # <class 'int'>
@@ -50,7 +32,11 @@ print(type(5e15))   # <class 'float'>
 print(type(True))   # <class 'bool'>
 print(type('ni hao'))    # <class 'str'>
 print('type (1, 2)', type((1, 2)))  # <class 'tuple'>
-print('type {a: 2}', type({a: 2}))  # <class 'dict'>
+print('type {a: 2}', type({'a': 2}))  # <class 'dict'>
+
+# compare type
+print('compare type int false', type(1) == 'int')  # False
+print('compare type int true', isinstance(1, int))  # True
 
 # isinstance()，确定变量的类型。
 # 接受两个参数，第1个参数是数据，第2个参数是类型
