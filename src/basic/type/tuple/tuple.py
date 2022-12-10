@@ -22,8 +22,13 @@ print(t[0])   # Adam
 # 假如tuple中有n个元素，可以用n个变量，以逗号分隔，来分别取出tuple中对应位置的值
 # 变量数量需等于tuple元素数据，否则编译报错
 rank = ('A', 'B', 3)
+# 元组可以使用拆包获取值，也可以使用下标
 a, b, c = rank
-print('%s, %s, %s' % (a, b, c))    # A, B, 3
+print('abc: %s, %s, %s' % (a, b, c))    # A, B, 3
+d = rank[0]
+e = rank[1]
+f = rank[2]
+print('def: %s, %s, %s' % (d, e, f))    # A, B, 3
 # m, n = rank  # error ValueError: too many values to unpack (expected 2)
 # print('m ,n: %s %s' % (m, n))
 
