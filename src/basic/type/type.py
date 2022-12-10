@@ -1,6 +1,10 @@
 # python支持的数据类型有：整型 int、布尔类型 bool、字符串 str、浮点型 float
 # 没有 long，再大的整数都是 int
-# list, <class 'list'>
+# list, tuple, dict
+
+# python 中所有类型都是对象，分为可变对象和不可变对象
+# 可变对象：list, dict
+# 不可变对象：int, float, bool, string, tuple
 
 # 转换
 # 获取类型
@@ -45,6 +49,8 @@ print(type(5.2))    # <class 'float'>
 print(type(5e15))   # <class 'float'>
 print(type(True))   # <class 'bool'>
 print(type('ni hao'))    # <class 'str'>
+print('type (1, 2)', type((1, 2)))  # <class 'tuple'>
+print('type {a: 2}', type({a: 2}))  # <class 'dict'>
 
 # isinstance()，确定变量的类型。
 # 接受两个参数，第1个参数是数据，第2个参数是类型
